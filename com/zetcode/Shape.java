@@ -64,9 +64,7 @@ public class Shape {
     }
 
     public int minX() {
-
         int m = coords[0][0];
-
         for (int i=0; i < 4; i++) {
 
             m = Math.min(m, coords[i][0]);
