@@ -36,7 +36,6 @@ public class Tetris extends JFrame {
     }
 
     JLabel getStatusBar() {
-
         return statusbar;
     }
 
